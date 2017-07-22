@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB7FDFE6648C1B28F668862 /* Pods_CapOne_GO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D45260B3EA9DA786CE7691 /* Pods_CapOne_GO.framework */; };
+		430CB2EC1F22D0B40008127A /* arButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 430CB2EB1F22D0B40008127A /* arButton.png */; };
+		430CB2EE1F22D4400008127A /* blankCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 430CB2ED1F22D4400008127A /* blankCircle.png */; };
+		4350F2CD1F22A93900952D7A /* storeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350F2CB1F22A93900952D7A /* storeButton.png */; };
+		4350F2CE1F22A93900952D7A /* investmentsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350F2CC1F22A93900952D7A /* investmentsButton.png */; };
+		437C67961F22A5E500D05C38 /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C67951F22A5E500D05C38 /* GoogleMapViewController.swift */; };
+		438A81891F2395C100A4A8D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 438A81881F2395C100A4A8D8 /* GoogleService-Info.plist */; };
+		439E24AF1F239C22001F0C41 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E24AE1F239C22001F0C41 /* LoginViewController.swift */; };
+		43A4DAEF1F229C4C00945ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4DAEE1F229C4C00945ED1 /* AppDelegate.swift */; };
+		43A4DAF11F229C4C00945ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4DAF01F229C4C00945ED1 /* ViewController.swift */; };
+		43A4DAF41F229C4C00945ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A4DAF21F229C4C00945ED1 /* Main.storyboard */; };
+		43A4DAF61F229C4C00945ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A4DAF51F229C4C00945ED1 /* Assets.xcassets */; };
+		43A4DAF91F229C4C00945ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A4DAF71F229C4C00945ED1 /* LaunchScreen.storyboard */; };
+		43A4DB021F229EEF00945ED1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A4DB011F229EEF00945ED1 /* MapKit.framework */; };
+		43FFDB551F22D7B000C653B2 /* topBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 43FFDB541F22D7B000C653B2 /* topBar.png */; };
+		43FFDB571F22DCF000C653B2 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 43FFDB561F22DCF000C653B2 /* launchScreen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11D45260B3EA9DA786CE7691 /* Pods_CapOne_GO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapOne_GO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		430CB2EB1F22D0B40008127A /* arButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arButton.png; sourceTree = "<group>"; };
+		430CB2ED1F22D4400008127A /* blankCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankCircle.png; sourceTree = "<group>"; };
+		4350F2CB1F22A93900952D7A /* storeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storeButton.png; sourceTree = "<group>"; };
+		4350F2CC1F22A93900952D7A /* investmentsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = investmentsButton.png; sourceTree = "<group>"; };
+		437C67951F22A5E500D05C38 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
+		438A81881F2395C100A4A8D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		439E24AE1F239C22001F0C41 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		43A4DAEB1F229C4C00945ED1 /* CapOne GO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CapOne GO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A4DAEE1F229C4C00945ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43A4DAF01F229C4C00945ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43A4DAF31F229C4C00945ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43A4DAF51F229C4C00945ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43A4DAF81F229C4C00945ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43A4DAFA1F229C4C00945ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A4DB011F229EEF00945ED1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		43FFDB541F22D7B000C653B2 /* topBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topBar.png; sourceTree = "<group>"; };
+		43FFDB561F22DCF000C653B2 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
+		637EEDAFA65C7FBB4CE733AF /* Pods-CapOne GO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapOne GO.release.xcconfig"; path = "Pods/Target Support Files/Pods-CapOne GO/Pods-CapOne GO.release.xcconfig"; sourceTree = "<group>"; };
+		B9EBB10D4A8C44039DC68342 /* Pods-CapOne GO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapOne GO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapOne GO/Pods-CapOne GO.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A4DAE81F229C4C00945ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A4DB021F229EEF00945ED1 /* MapKit.framework in Frameworks */,
+				3FB7FDFE6648C1B28F668862 /* Pods_CapOne_GO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4350F2CA1F22A92900952D7A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				43FFDB561F22DCF000C653B2 /* launchScreen.png */,
+				43FFDB541F22D7B000C653B2 /* topBar.png */,
+				430CB2ED1F22D4400008127A /* blankCircle.png */,
+				430CB2EB1F22D0B40008127A /* arButton.png */,
+				4350F2CB1F22A93900952D7A /* storeButton.png */,
+				4350F2CC1F22A93900952D7A /* investmentsButton.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		43A4DAE21F229C4C00945ED1 = {
+			isa = PBXGroup;
+			children = (
+				43A4DAED1F229C4C00945ED1 /* CapOne GO */,
+				43A4DAEC1F229C4C00945ED1 /* Products */,
+				43A4DB001F229EEF00945ED1 /* Frameworks */,
+				57E7BE40C82564FEDBECBBA6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		43A4DAEC1F229C4C00945ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A4DAEB1F229C4C00945ED1 /* CapOne GO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43A4DAED1F229C4C00945ED1 /* CapOne GO */ = {
+			isa = PBXGroup;
+			children = (
+				4350F2CA1F22A92900952D7A /* Images */,
+				43A4DAEE1F229C4C00945ED1 /* AppDelegate.swift */,
+				43A4DAF01F229C4C00945ED1 /* ViewController.swift */,
+				43A4DAF21F229C4C00945ED1 /* Main.storyboard */,
+				439E24AE1F239C22001F0C41 /* LoginViewController.swift */,
+				437C67951F22A5E500D05C38 /* GoogleMapViewController.swift */,
+				43A4DAF51F229C4C00945ED1 /* Assets.xcassets */,
+				43A4DAF71F229C4C00945ED1 /* LaunchScreen.storyboard */,
+				438A81881F2395C100A4A8D8 /* GoogleService-Info.plist */,
+				43A4DAFA1F229C4C00945ED1 /* Info.plist */,
+			);
+			path = "CapOne GO";
+			sourceTree = "<group>";
+		};
+		43A4DB001F229EEF00945ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A4DB011F229EEF00945ED1 /* MapKit.framework */,
+				11D45260B3EA9DA786CE7691 /* Pods_CapOne_GO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57E7BE40C82564FEDBECBBA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9EBB10D4A8C44039DC68342 /* Pods-CapOne GO.debug.xcconfig */,
+				637EEDAFA65C7FBB4CE733AF /* Pods-CapOne GO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43A4DAEA1F229C4C00945ED1 /* CapOne GO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A4DAFD1F229C4C00945ED1 /* Build configuration list for PBXNativeTarget "CapOne GO" */;
+			buildPhases = (
+				46ACF173924CB8A4F15229BC /* [CP] Check Pods Manifest.lock */,
+				43A4DAE71F229C4C00945ED1 /* Sources */,
+				43A4DAE81F229C4C00945ED1 /* Frameworks */,
+				43A4DAE91F229C4C00945ED1 /* Resources */,
+				3583A4DC7F293552EB20C33E /* [CP] Embed Pods Frameworks */,
+				519AF3168759F0E351AC7A3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CapOne GO";
+			productName = "CapOne GO";
+			productReference = 43A4DAEB1F229C4C00945ED1 /* CapOne GO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43A4DAE31F229C4C00945ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jacob Bashista";
+				TargetAttributes = {
+					43A4DAEA1F229C4C00945ED1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 52XU3AFXCU;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 43A4DAE61F229C4C00945ED1 /* Build configuration list for PBXProject "CapOne GO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43A4DAE21F229C4C00945ED1;
+			productRefGroup = 43A4DAEC1F229C4C00945ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43A4DAEA1F229C4C00945ED1 /* CapOne GO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A4DAE91F229C4C00945ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438A81891F2395C100A4A8D8 /* GoogleService-Info.plist in Resources */,
+				43A4DAF91F229C4C00945ED1 /* LaunchScreen.storyboard in Resources */,
+				43A4DAF61F229C4C00945ED1 /* Assets.xcassets in Resources */,
+				43A4DAF41F229C4C00945ED1 /* Main.storyboard in Resources */,
+				430CB2EE1F22D4400008127A /* blankCircle.png in Resources */,
+				4350F2CE1F22A93900952D7A /* investmentsButton.png in Resources */,
+				43FFDB551F22D7B000C653B2 /* topBar.png in Resources */,
+				430CB2EC1F22D0B40008127A /* arButton.png in Resources */,
+				4350F2CD1F22A93900952D7A /* storeButton.png in Resources */,
+				43FFDB571F22DCF000C653B2 /* launchScreen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3583A4DC7F293552EB20C33E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapOne GO/Pods-CapOne GO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46ACF173924CB8A4F15229BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		519AF3168759F0E351AC7A3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapOne GO/Pods-CapOne GO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A4DAE71F229C4C00945ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439E24AF1F239C22001F0C41 /* LoginViewController.swift in Sources */,
+				43A4DAF11F229C4C00945ED1 /* ViewController.swift in Sources */,
+				43A4DAEF1F229C4C00945ED1 /* AppDelegate.swift in Sources */,
+				437C67961F22A5E500D05C38 /* GoogleMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43A4DAF21F229C4C00945ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A4DAF31F229C4C00945ED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43A4DAF71F229C4C00945ED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A4DAF81F229C4C00945ED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43A4DAFB1F229C4C00945ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43A4DAFC1F229C4C00945ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43A4DAFE1F229C4C00945ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EBB10D4A8C44039DC68342 /* Pods-CapOne GO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52XU3AFXCU;
+				INFOPLIST_FILE = "CapOne GO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobbashista.CapOne-GO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43A4DAFF1F229C4C00945ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637EEDAFA65C7FBB4CE733AF /* Pods-CapOne GO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52XU3AFXCU;
+				INFOPLIST_FILE = "CapOne GO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobbashista.CapOne-GO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A4DAE61F229C4C00945ED1 /* Build configuration list for PBXProject "CapOne GO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A4DAFB1F229C4C00945ED1 /* Debug */,
+				43A4DAFC1F229C4C00945ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A4DAFD1F229C4C00945ED1 /* Build configuration list for PBXNativeTarget "CapOne GO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A4DAFE1F229C4C00945ED1 /* Debug */,
+				43A4DAFF1F229C4C00945ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43A4DAE31F229C4C00945ED1 /* Project object */;
+}
