@@ -9,6 +9,7 @@
 import UIKit
 import GoogleMaps
 import Firebase
+import OAuthSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GMSServices.provideAPIKey("AIzaSyB-slWI7f5MiSfyUuh85_rIyr6Rax9ozG0")
         FIRApp.configure()
         
+        return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        if (url.host == "oauth-callback") {
+            OAuthSwift.handle(url: url)
+        }
         return true
     }
 

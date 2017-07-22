@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OAuthSwift
 
 class LoginViewController: UIViewController {
 
@@ -22,11 +23,27 @@ class LoginViewController: UIViewController {
     }
     
     
+    
     @IBAction func login(_ sender: Any) {
-        
-        
-        
+      let oauthswift = OAuth2Swift(
+            consumerKey:    "70048ab0247b478baef288dae9f36f98",
+            consumerSecret: "cf6e918da6dce17cd4dcf37c8801b3e1",
+            authorizeUrl:   "https://api-sandbox.capitalone.com/oauth2/authorize?",
+            responseType:   "code"
+        )
+            _ = oauthswift.authorize(
+            withCallbackURL: URL(string: "https://huvcyixh0b.execute-api.us-east-1.amazonaws.com/prod/caponego-prod-getCapOneRewards")!,
+            scope: "read_rewards_account_info",
+            state:"CapOneGo",
+            success: { credential, response, parameters in
+                print(credential.oauthToken)
+        },
+            failure: { error in
+                print(error.localizedDescription)
+        }
+        )
     }
+    
     
     
     
