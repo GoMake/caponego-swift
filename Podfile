@@ -8,5 +8,6 @@ target ‘CapOne GO’ do
     pod 'Firebase/Auth'
     pod 'Firebase/Database'
     pod 'GoogleMaps'
+    pod 'OAuthSwift', '~> 1.1.0'
     pod 'SCLAlertView'
 end
