@@ -19,13 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        GMSServices.provideAPIKey("AIzaSyB-slWI7f5MiSfyUuh85_rIyr6Rax9ozG0")
+       
         FIRApp.configure()
+        GMSServices.provideAPIKey("AIzaSyB-slWI7f5MiSfyUuh85_rIyr6Rax9ozG0")
         
         return true
     }
-    
+  
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         if (url.host == "oauth-callback") {
             OAuthSwift.handle(url: url)

@@ -13,6 +13,7 @@
 		4350F2CD1F22A93900952D7A /* storeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350F2CB1F22A93900952D7A /* storeButton.png */; };
 		4350F2CE1F22A93900952D7A /* investmentsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350F2CC1F22A93900952D7A /* investmentsButton.png */; };
 		437C67961F22A5E500D05C38 /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C67951F22A5E500D05C38 /* GoogleMapViewController.swift */; };
+		4385F24C1F23A32000C882F5 /* capOneLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4385F24B1F23A32000C882F5 /* capOneLogo.png */; };
 		438A81891F2395C100A4A8D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 438A81881F2395C100A4A8D8 /* GoogleService-Info.plist */; };
 		439E24AF1F239C22001F0C41 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E24AE1F239C22001F0C41 /* LoginViewController.swift */; };
 		43A4DAEF1F229C4C00945ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4DAEE1F229C4C00945ED1 /* AppDelegate.swift */; };
@@ -32,6 +33,7 @@
 		4350F2CB1F22A93900952D7A /* storeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storeButton.png; sourceTree = "<group>"; };
 		4350F2CC1F22A93900952D7A /* investmentsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = investmentsButton.png; sourceTree = "<group>"; };
 		437C67951F22A5E500D05C38 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
+		4385F24B1F23A32000C882F5 /* capOneLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capOneLogo.png; sourceTree = "<group>"; };
 		438A81881F2395C100A4A8D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		439E24AE1F239C22001F0C41 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		43A4DAEB1F229C4C00945ED1 /* CapOne GO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CapOne GO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 		4350F2CA1F22A92900952D7A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4385F24B1F23A32000C882F5 /* capOneLogo.png */,
 				43FFDB561F22DCF000C653B2 /* launchScreen.png */,
 				43FFDB541F22D7B000C653B2 /* topBar.png */,
 				430CB2ED1F22D4400008127A /* blankCircle.png */,
@@ -199,6 +202,7 @@
 				43A4DAF91F229C4C00945ED1 /* LaunchScreen.storyboard in Resources */,
 				43A4DAF61F229C4C00945ED1 /* Assets.xcassets in Resources */,
 				43A4DAF41F229C4C00945ED1 /* Main.storyboard in Resources */,
+				4385F24C1F23A32000C882F5 /* capOneLogo.png in Resources */,
 				430CB2EE1F22D4400008127A /* blankCircle.png in Resources */,
 				4350F2CE1F22A93900952D7A /* investmentsButton.png in Resources */,
 				43FFDB551F22D7B000C653B2 /* topBar.png in Resources */,
@@ -392,6 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HS2RDNVWQX;
 				INFOPLIST_FILE = "CapOne GO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobbashista.CapOne-GO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HS2RDNVWQX;
 				INFOPLIST_FILE = "CapOne GO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobbashista.CapOne-GO";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -46,6 +46,7 @@ PODS:
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
   - GTMSessionFetcher/Core (1.1.9)
   - OAuthSwift (1.1.2)
+  - SCLAlertView (0.7.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
@@ -55,6 +56,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - GoogleMaps
   - OAuthSwift (~> 1.1.0)
+  - SCLAlertView
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
 
 EXTERNAL SOURCES:
@@ -79,8 +81,7 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
   OAuthSwift: 5aa5659984d3ca3206ba636a9e7a9c6626b2e8bd
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   SwiftyJSON: 05cf0e98a950e2ba343735264f5a96b81e755d00
-
-PODFILE CHECKSUM: 15454986e299e51eaf4ccdeedbe62167c3ae0730
 
 COCOAPODS: 1.2.0
